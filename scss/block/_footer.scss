@@ -1,0 +1,40 @@
+.footer{
+    background-color: #1391ce;
+    padding-bottom: 48px;
+}
+
+.footer__block{
+    padding-top: 32px;
+}
+
+.footer__body{
+    border-top: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__text{
+    font-weight: 400;
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 134%;
+    letter-spacing: 0.01em;
+    color: #302e2f;
+}
+
+.words{
+    font-weight: 700;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 750px) {
+    .footer__body{
+        display: block;
+    }
+
+    .footer__text{
+        margin-bottom: 16px;
+    }
+}
